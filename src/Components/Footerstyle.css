@@ -1,0 +1,39 @@
+.footer{
+    background-color: rgba(169, 206, 252, 0.573);
+    bottom: 0;
+    width: 100%;
+    height:300px;
+
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+    }
+    .cont{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .box2{
+            height: 200px;
+            width: 200px;
+            border: none;
+            margin: 10px;
+            text-align: left;
+        }
+    }
+
+    .box1{
+        width: 100%;
+        /* bottom: 0; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: black;
+        color: white;
+    }
+} 

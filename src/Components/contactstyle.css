@@ -1,0 +1,40 @@
+
+.contact{
+    background-color: rgba(251, 254, 255, 0.782);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .form{
+       margin: 50px;
+       width: 40%;
+       display: flex;
+       flex-direction: column;
+    }
+    .form .input{
+       border-radius:7px;
+       height: 40px;
+       padding: 10px;
+       font-size: 15px;
+       border: 1px solid rgb(64, 64, 105);
+    }
+   
+    .form #text{
+       min-height: 100px;
+       max-height: 100px;
+    }
+   
+    .form button{
+       margin-top: 5px;
+       height: 30px;
+       width: 100px;
+       background-color: rgb(116, 116, 221);
+       color: white;
+       border-radius: 7px;
+    }
+   
+    .form button:hover{
+       background-color: rgb(98, 94, 94);
+    }
+   
+   }
